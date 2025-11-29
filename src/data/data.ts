@@ -73,9 +73,9 @@ export const services = [
   },
   {
     id: 2,
-    service: 'Grant Sourcing & Matching',
+    service: 'Grant & Funding Support',
     description:
-      'We identify suitable funding opportunities and strategically align them with your organizational goals, increasing your chances of success and long-term impact.',
+      'Support in identifying the right funding opportunities and developing strong, competitive proposals, including grant matching, concept notes, budgeting, and donor alignment.',
     icon: FaHandHoldingUsd,
     color: '#7e22ce',
     background:'#e5d3f5'
@@ -83,51 +83,43 @@ export const services = [
 
   {
     id: 3,
-    service: 'Thought Leadership',
+    service: 'Policy Analysis & Writing',
     description:
-      'We position your organization as an authority through compelling content, insights, and strategic engagement that influence your sector and stakeholders.',
-    icon: FaLightbulb,
+      'We develop clear, evidence-based policy documents that inform decisions and strengthen systems, including policy reviews, regulatory analyses, briefs, and position papers.',
+    icon: FaBalanceScale,
     color: '#ef4444',
     background:'#fcdada'
   },
 
   {
     id: 4,
-    service: 'Monitoring and Evaluation',
+    service: 'Stakeholder Engagement & Partnerships',
     description:
-      'Our M&E frameworks track progress, measure impact, and inform improvements, ensuring accountability and learning throughout the program lifecycle.',
-    icon: FaChartLine,
+      'We design and facilitate effective engagement processes that bring stakeholders together, build strong partnerships, and create alignment around shared goals.',
+    icon: FaHandshake,
     color: '#22c55e',
     background:'#d3f3df'
   },
   {
     id: 5,
-    service: 'Development Communications',
+    service: 'Strategic Communications',
     description:
-      'We craft and deliver clear, compelling messages that communicate your mission, mobilize support, and build trust with partners and communities.',
+      'We help organisations communicate with clarity and credibility through well-crafted reports, briefs, decks, newsletters, and visibility strategies that enhance influence and sector positioning.',
     icon: FaBullhorn,
     color: `#f97316`,
     background:'#fee3d0'
   },
   {
     id: 6,
-    service: 'Policy and Regulatory Support',
+    service: 'Monitoring, Evaluation & Learning (MEL)',
     description:
-      'We provide expert guidance in shaping, analyzing, and navigating policy and regulatory environments to support advocacy and compliance efforts.',
-    icon: FaBalanceScale,
+      'Our M&E frameworks track progress, measure impact, and inform improvements, ensuring accountability and learning throughout the program lifecycle.',
+    icon: FaChartLine,
     color: `#d946ef`,
     
     background:'#f7dafc'
   },
-  {
-    id: 7,
-    service: 'Policy Analysis and Writing',
-    description:
-      'We deliver insightful policy research and clear, strategic writing to inform decision-making and drive impactful advocacy.',
-    icon: HiOutlineDocumentSearch,
-    color: `#1e40af`,
-    background:'#e8ecff'
-  },
+ 
 
 ]
 
@@ -206,19 +198,19 @@ export const blogs = [
 
 export const entities = [
   {
-    sector: "Not-for-Profits",
-    description: "We empower NGOs, charities, and social enterprises to amplify their impact through strategic support in grant applications, fundraising, and programme development.",
-    image: '/assets/ngo-image.jpg'
+    sector: "Government & Public Institutions",
+    description: "We work with government entities to fundraise for social impact initiatives, bridge the gap between policy design and implementation, and ensure programmes reach their beneficiaries.",
+    image: '/assets/sugar-house.png'
   },
   {
-    sector: "Private Sector",
+    sector: "Private Sector & Impact-Driven Businesses",
     description: "We partner with businesses to integrate social responsibility into operations, align commercial goals with the development agenda, and drive measurable social impact.",
     image: '/assets/modern-business-center.jpg'
   },
   {
-    sector: "Public Sector",
-    description: "We work with government entities to fundraise for social impact initiatives, bridge the gap between policy design and implementation, and ensure programmes reach their beneficiaries.",
-    image: '/assets/sugar-house.png'
+    sector: " NGOs, CSOs & Social Impact Organisations",
+    description: "We partner with non-profits and community-focused organisations to secure funding, develop scalable interventions, design MEL systems, and strengthen institutional capacity for long-term impact.",
+    image: '/assets/ngo-image.jpg'
   }
 ];
 
@@ -286,33 +278,20 @@ export const infoArray = [
   {
     id: 1,
     name: 'mission',
-    description: `Our mission is to empower the realisation of development aspirations 
-through the design of sound policy options, innovative funding 
-solutions, strategic programme implementation, and robust 
-stakeholder engagement. We aim to serve as the conduit between 
-ambition and achievement, guaranteeing that each project we 
-embark upon is enduring, impactful and, in tandem with global 
-development objectives.`,
+    description: `To strengthen organisations and empower them to design and deliver programmes, policies, and systems that drive sustainable development.`,
     image: 'src/mission.jpg',
   },
   {
     id: 2,
     name: 'vision',
-    description: `Our vision is to emerge as a global leader in sustainable development 
-consulting. We envision a world where every organisation, 
-irrespective of its scale or sector, is empowered with the resources 
-and assistance necessary to reach its goals and audience, while 
-actively contributing to a sustainable and prosperous future for all.`,
+    description: `Our vision is to become a trusted global partner for organisations seeking clarity, strategy, and strong execution providing the insight and support needed to translate ambition into impact`,
     image: 'src/vision.jpg',
   },
   {
     id: 3,
     name: 'values',
-    description: `Our values shape the way we work and the impact we create. 
-We believe in accountability, ensuring that every project delivers measurable 
-results. We value collaboration, working closely with diverse stakeholders to 
-design context-sensitive solutions. We prioritise innovation, constantly seeking 
-creative approaches to complex challenges. `,
+    description: `We are guided by accountability, delivering measurable results; collaboration, working closely with partners to design context-driven solutions; and innovation, applying creative, adaptive approaches to complex development challenges.
+ `,
     image: 'src/values.jpg',
   }
 ]
@@ -341,23 +320,23 @@ export const events = [
 
   export const approach = [
     {
-      name: " Needs Assessment and Contextual Analysis",
-      description: "We begin with a comprehensive Needs Assessment, engaging NGOs, charities, and social enterprises to identify their unique challenges, goals, and operational contexts. ",
+      name: "Needs Assessment & Contextual Analysis",
+      description: "We begin with a rigorous needs assessment, engaging organisations to understand their priorities, challenges, and operating context. This ensures every solution is grounded in real-world insights.",
       image: '/assets/needs.jpg'
     },
     {
-      name: " Strategic Alignment and Stakeholder Engagement",
-      description: "We initiate a process of Strategic Alignment by leveraging our sectoral expertise and established networks.",
+      name: "Strategic Alignment & Stakeholder Engagement",
+      description: "We drive strategic alignment by applying sector expertise and activating our network of partners and stakeholders. This creates coherence, shared ownership, and clear pathways for coordinated action.",
       image: '/assets/strategic.jpg'
     },
     {
-      name: " Solution Design and Co-Creation",
-      description: "In this phase, we apply Human-Centered Design and Co-Creation Methodologies to develop tailored, context-sensitive solutions.",
+      name: "Solution Design & Co-Creation",
+      description: "Using human-centred design and co-creation methodologies, we develop tailored, context-responsive solutions that are practical, implementable, and aligned with each organisation’s mission",
       image: '/assets/solutions.jpg'
     },
     {
       name: "Impact Evaluation & Systems Scaling",
-      description: "We implement robust Monitoring, Evaluation, and Learning (MEL) frameworks to assess outcomes and drive continuous improvement.",
+      description: "We implement robust Monitoring, Evaluation, and Learning (MEL) frameworks to assess outcomes, strengthen decision-making, and support the scaling of successful interventions for long-term impact.",
       image: '/assets/monitoring.jpg'
     }
   ]
