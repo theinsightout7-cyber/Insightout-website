@@ -1,5 +1,15 @@
 import { createBrowserRouter } from 'react-router-dom'
-import { About, Home, Careers, Blogs, Contact, NotFound,Blog,CreateInsight } from './pages'
+import {
+  About,
+  Home,
+  Careers,
+  Blogs,
+  Contact,
+  NotFound,
+  Blog,
+  CreateInsight,
+  Gallery,
+} from './pages'
 import App from './App'
 
 const router = createBrowserRouter([
@@ -11,10 +21,11 @@ const router = createBrowserRouter([
       { path: '/about', element: <About /> },
 
       { path: 'careers', element: <Careers /> },
-      { path: 'insight', element: <Blogs />, } ,
+      { path: 'insight', element: <Blogs /> },
       { path: 'insight/:id', element: <Blog /> },
       { path: 'contact', element: <Contact /> },
       { path: 'create-insight', element: <CreateInsight /> },
+      { path: 'gallery', element: <Gallery /> },
     ],
   },
   // { path: '/user/:id', element: <Profile /> },
