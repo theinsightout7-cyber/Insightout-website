@@ -4,11 +4,10 @@ import BlogContainer from '../components/BlogContainer'
 import ClientContainer from '../components/ClientContainer'
 import EventCardContainer from '../components/EventCardContainer'
 import HeroContainer from '../components/HeroContainer'
-import MissionCardContainer from '../components/MissionCardContainer'
+// import MissionCardContainer from '../components/MissionCardContainer'
 import ServiceCardContainner from '../components/ServiceCardContainer'
-import TestimonialContainer from '../components/TestimonialContainer'
+// import TestimonialContainer from '../components/TestimonialContainer'
 import { services } from '../data/data'
-TestimonialContainer
 
 const Home = () => {
   return (
@@ -19,16 +18,15 @@ const Home = () => {
       <div className='flex flex-col md:py-16 py-12'>
         <AboutSection />
       </div>
-      <div className='flex flex-col md:py-4 py-'>
+      {/* <div className='flex flex-col md:py-16 py-12 '>
         <MissionCardContainer />
-      </div>
+      </div> */}
       <div className='flex flex-col md:py-16 py-12'>
         <ServiceCardContainner heading={'what we do'} data={services} />
       </div>
       <div className='flex flex-col md:py-16 py-12'>
         <ClientContainer />
       </div>
-      
 
       <div className='flex flex-col md:py-16 py-12'>
         <EventCardContainer />
@@ -38,9 +36,11 @@ const Home = () => {
       </div> */}
       <div className='flex flex-col md:py-16 py-12 container'>
         <div>
-         <h2 className='text-2xl font-bold capitalize poppins-extrabold'>Explore our latest insights</h2>
+          <h2 className='text-2xl font-bold capitalize poppins-extrabold'>
+            Explore our latest insights
+          </h2>
         </div>
-        <BlogContainer variant='' number={4}/>
+        <BlogContainer variant='' number={4} />
       </div>
     </div>
   )

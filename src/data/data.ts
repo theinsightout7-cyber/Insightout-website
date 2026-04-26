@@ -616,3 +616,99 @@ export const galleryImages = [
   { id: 15, image: '/assets/IMG-gallery-15.jpg' },
   { id: 16, image: '/assets/IMG-gallery-16.jpg' },
 ]
+
+export const PROJECTS = [
+  {
+    id: 1,
+    title:
+      'Development of the National Sugarcane Outgrower Strategy to Drive Sustainable Production and Sector Growth in Nigeria',
+    sector: 'Agriculture',
+    image: '/assets/IMG-gallery-12.jpg',
+    problem:
+      'Nigeria’s sugar sector is underperforming, producing only 3% of national demand—about 38,597 tons out of 1.5 million tons consumed annually. The industry relies on large estates, leaving 90% of smallholder farmers (mostly under 5 hectares) excluded. Production is constrained by high input costs (planting materials 18%, fertilizers 14%), limited access to finance and mechanization, outdated cane varieties, sole reliance on rainfall, and weak market linkages',
+    solution:
+      'Impact Pointe Consulting Limited and InsightOut Limited developed a National Sugarcane Outgrower Strategy to integrate smallholder farmers into the sugar supply chain. The strategy provides quality seeds, fertilizers, equipment, and technical training, alongside fair contracts with sugar operators. It strengthens stakeholder engagement, enables access to financing, and promotes sustainable practices like efficient irrigation and bioenergy use. Designed to be scalable, it aims to boost productivity and improve rural livelihoods across Nigeria’s sugar-producing states.',
+
+    images: ['/assets/IMG-gallery-2.jpg', '/assets/IMG-gallery-12.jpg'],
+  },
+  {
+    id: 2,
+    title:
+      'Strategic Communications & Event Management — Africa Agriculture Dialogue 2025: Agenda Setting Session',
+    sector: 'Events & Communications',
+    image: '/assets/AAD-2025.jpg',
+    problem: `Africa's agricultural sector remains trapped between its enormous potential and a persistent financing gap that excludes smallholder farmers — the majority of them women and youth — from the credit, insurance, and investment needed to scale their impact. Beyond financing, Africa has long been the subject of global food systems conversations rather than the architect of its own solutions. Convening a platform capable of shifting this dynamic demanded more than logistics; it required a coherent vision, a compelling identity, and precise multi-stakeholder coordination to turn dialogue into real, measurable commitments.`,
+    solution:
+      'InsightOut Limited led the full implementation of the Africa Agriculture Dialogue 2025: Agenda Setting Session, from creative branding to seamless on-ground coordination. We developed a cohesive visual identity, designed all event assets, and managed stakeholder engagement across government, partners, and industry leaders — ensuring every element of the Agenda Setting Session reflected the weight and ambition of its mission. Our approach was designed not just to produce a successful event, but to create a platform where African voices led with authority and commitments made in Abuja could travel meaningfully to the global stage in Des Moines.',
+
+    images: ['/assets/AAD-2025-2.jpg', '/assets/AAD-2025-3.jpg'],
+  },
+  // {
+  //   id: 3,
+  //   title: 'Climate-Smart Agriculture Initiative',
+  //   sector: 'Agriculture',
+  //   image:
+  //     'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80',
+  //   problem:
+  //     'Smallholder farmers in the Middle Belt region were experiencing declining yields due to erratic rainfall and soil degradation, with no access to climate adaptation tools or financing mechanisms.',
+  //   solution:
+  //     'InsightOut facilitated the rollout of climate-smart farming techniques to 2,400 smallholders, integrated digital weather advisory systems, and developed a revolving credit scheme through local cooperative societies.',
+
+  //   images: [
+  //     'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80',
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Girls Education Access Project',
+  //   sector: 'Education',
+  //   image:
+  //     'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80',
+  //   problem:
+  //     'Gender parity in secondary school enrolment in Katsina State was at 0.61, driven by cultural barriers, distance to schools, and safety concerns for girls travelling long distances.',
+  //   solution:
+  //     'We worked with community and religious leaders to shift attitudes, established safe transit hubs, trained 60 female teachers, and partnered with state government to implement a conditional cash transfer scheme.',
+
+  //   images: [
+  //     'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&q=80',
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Water & Sanitation Infrastructure',
+  //   sector: 'WASH',
+  //   image:
+  //     'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80',
+  //   problem:
+  //     'Over 15 rural communities in Benue State lacked clean water access. Women and children spent 4–6 hours daily fetching water from unsafe sources, contributing to waterborne disease outbreaks.',
+  //   solution:
+  //     'InsightOut led a participatory community assessment, coordinated borehole construction across 8 communities, trained local WASH committees on maintenance, and established a community-led cost-recovery model.',
+
+  //   images: [
+  //     'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1581578017093-cd30fce4eeb7?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1541844053589-346841d0b34c?w=800&q=80',
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: 'Policy & Institutional Reform Support',
+  //   sector: 'Governance',
+  //   image:
+  //     'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&q=80',
+  //   problem:
+  //     'A federal ministry struggled with fragmented data systems, weak inter-agency coordination, and outdated policy frameworks that limited its ability to respond to emerging development challenges.',
+  //   solution:
+  //     'We conducted an institutional diagnostic, facilitated policy reform workshops, designed a unified M&E framework, and supported the development of a 5-year strategic plan with clear KPIs and accountability structures.',
+
+  //   images: [
+  //     'https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
+  //     'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+  //   ],
+  // },
+]
